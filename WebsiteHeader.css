@@ -1,12 +1,21 @@
+body {
+  margin: 0;
+}
+header{
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
 table {
-	border-collapse: collapse; 
+	position: absolute; 
 	width: 100%;
-	background-color: grey;
+	border-collapse: collapse; 
+	background-color:  rgba(0, 0, 200, 0.12);
 }
 td {
 	width: 5%;
     text-align: center;
 	border-right-style: solid;
+	border-left-style: solid;
 	color: #ffffff;
 }
 
@@ -17,6 +26,15 @@ a {
 	font-family: Arial;
 	color: #ffffff;
 	text-decoration: none;
+}
+
+.home__img {
+  width: 100%;
+  height: 100vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 25px solid blue;
 }
 
 td:hover {
