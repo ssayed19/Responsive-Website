@@ -66,16 +66,49 @@ a {
   color: white;
 }
 
+.right-textbox {
+  position: absolute;
+  background-color: #339FCD;
+  color: white;
+  top: 0%;
+  left: 50%;
+  width: 40%;
+  height: 99.5%
+}
+
+.left-textbox {
+  position: absolute;
+  background-color: #6DC0E4;
+  color: white;
+  top: 0%;
+  left: 10%;
+  width: 40%;
+  height: 99.5%
+}
+
 .bottom__img {
   width: 40%;
 }
 
 .box__img1 {
   width: 40%;
-  background-color: #339FCD;
 }
 
 .box__img2 {
   width: 40%;
-  background-color: #3592BB;
+}
+
+p {
+  margin-right: 80px;
+  margin-left: 80px;
+  font-size: 1.4vw;
+  font-family: Arial;
+}
+
+h4 {
+  margin-right: 80px;
+  margin-left: 80px;
+  font-size: 1.4vw;
+  font-family: Arial;
+  font-weight: bold;
 }
