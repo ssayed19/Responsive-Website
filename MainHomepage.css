@@ -23,7 +23,7 @@ td:hover {
   text-shadow: 0px 0px 3px white;
 }
 
-a {
+.headertab {
   width: 5%;
   text-align: center;
   font-size: 30px;
@@ -68,22 +68,18 @@ a {
 
 .right-textbox {
   position: absolute;
-  background-color: #339FCD;
   color: white;
   top: 0%;
   left: 50%;
   width: 40%;
-  height: 99.5%
 }
 
 .left-textbox {
   position: absolute;
-  background-color: #6DC0E4;
   color: white;
   top: 0%;
   left: 10%;
   width: 40%;
-  height: 99.5%
 }
 
 .bottom__img {
@@ -101,7 +97,7 @@ a {
 p {
   margin-right: 80px;
   margin-left: 80px;
-  font-size: 1.4vw;
+  font-size: 1.3vw;
   font-family: Arial;
 }
 
