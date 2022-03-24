@@ -31,6 +31,10 @@ h4 {
   font-weight: bold;
 }
 
+h2 {
+  text-align:center;
+}
+
 .tabbars {
   position: absolute; 
   width: 100%;
@@ -64,6 +68,7 @@ h4 {
   top: 47%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-shadow: 0px 0px 3px black;
 }
 
 .centered2 {
@@ -74,6 +79,7 @@ h4 {
   top: 54%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-shadow: 0px 0px 3px black;
 }
 
 .bottom_container {
