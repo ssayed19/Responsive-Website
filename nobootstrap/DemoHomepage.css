@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color:  rgba(0, 0, 200, 0.12);
+  border-style: solid;
+  border-color: blue;
+}
+
+h1 {
+  font-family: Arial;
+  font-weight: bold;
+  color: 3592BB;
+}
+
+h1:hover {
+  text-shadow: 0px 0px 3px green;
+}
+
+h2 {
+  font-family: Arial;
+  font-weight: bold;
+  color: 3592BB;
+}
+
+h2:hover {
+  text-shadow: 0px 0px 3px blue;
+}
+
+h3 {
+  font-family: Arial;
+  font-weight: bold;
+  color: 3592BB;
+}
+
+h3:hover {
+  text-shadow: 0px 0px 3px red;
+}
+
+p {
+  font-family: Arial;
+  color: #339FCD;
+}
+

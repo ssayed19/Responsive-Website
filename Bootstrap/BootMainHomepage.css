@@ -1,6 +1,7 @@
 nav{
   position: relative;
   text-align: center;
+  z-index: 1;
 }
 
 td {
@@ -34,7 +35,7 @@ h4 {
   position: absolute; 
   width: 100%;
   border-collapse: collapse; 
-  background-color:  rgba(0, 0, 200, 0.12);
+  background-color:  rgba(0, 0, 200, 0.6);
 }
 
 .tab {
@@ -51,6 +52,7 @@ h4 {
   height: 100vh;
   display: block;
   border-bottom: 50px solid #1D4C91;
+  z-index: -1;
 }
 
 .centered {
