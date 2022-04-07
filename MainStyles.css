@@ -1,4 +1,4 @@
-nav{
+nav {
   position: relative;
   text-align: center;
   z-index: 1;
@@ -22,7 +22,7 @@ p {
   margin-right: 100px;
   margin-left: 150px;
   font-family: Arial;
-  font-size: 1.22vw;
+  font-size: 1vw;
 }
 
 h4 {
@@ -84,15 +84,16 @@ h2 {
   text-shadow: 0px 0px 3px black;
 }
 
-.bottom_container{
-  width: 100%;
+.bottom_container {
+  margin-left: 10vw;
+  width: 80%;
   height: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 0.5em;
 }
 
-.right-textbox{
+.right-textbox {
   background: #6dbfe5;
   color: white;
   text-align: center;
@@ -106,14 +107,7 @@ h2 {
 
 .bottom_img {
   width: 100%;
-}
-
-.box__img1 {
-  width: 100%
-}
-
-.box__img2 {
-  width: 40%;
+  height: 100%
 }
 
 .btn {
@@ -121,4 +115,3 @@ h2 {
   margin-bottom: 25px;
   font-size: 20px
 }
-
